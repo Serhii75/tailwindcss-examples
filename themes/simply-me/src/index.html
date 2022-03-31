@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Me</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script src="../dist/app.js" defer></script>
+  </head>
+  <body class="text-gray-600">
+    <nav class="relative bg-gray-100 text-gray-400">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20"
+      >
+        <div>ME</div>
+        <div>
+          <button
+            id="nav-toggler"
+            class="sm:hidden border border-gray-400 px-2 py-1 rounded"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+          <ul
+            class="hidden style-none sm:flex space-x-8 text-sm uppercase tracking-widest"
+          >
+            <li><a href="#">Who</a></li>
+            <li><a href="#">What</a></li>
+            <li><a href="#">Where</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <ul
+      id="mobile-nav"
+      class="hidden text-gray-400 text-sm uppercase tracking-widest"
+    >
+      <li><a class="inline-block px-4 py-3" href="#">Who</a></li>
+      <li><a class="inline-block px-4 py-3" href="#">What</a></li>
+      <li><a class="inline-block px-4 py-3" href="#">Where</a></li>
+    </ul>
+
+    <div
+      class="bg-teal-500 flex flex-col justify-center items-center text-gray-100 space-y-12 px-4 py-16"
+    >
+      <h2 class="text-2xl text-center">Who Am I?</h2>
+      <img src="../images/bird.jpg" alt="Who Am I?" class="rounded-full" />
+      <h3 class="text-2xl text-center">I'm an adventurer</h3>
+    </div>
+
+    <div
+      class="bg-slate-600 flex flex-col justify-center items-center text-gray-100 px-4 py-16 space-y-12"
+    >
+      <h2 class="text-2xl text-center">What Am I?</h2>
+      <div class="text-center space-y-4">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </p>
+        <button class="bg-gray-100 text-gray-400 px-4 py-2 rounded-md text-xl">
+          Search
+        </button>
+      </div>
+    </div>
+
+    <div
+      class="flex flex-col justify-center items-center px-4 py-16 space-y-12"
+    >
+      <h2 class="text-2xl text-center">Where To Find Me?</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-14">
+        <div class="text-center space-y-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="../images/birds1.jpg" alt="" class="w-full" />
+        </div>
+        <div class="text-center space-y-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="../images/birds2.jpg" alt="" class="w-full" />
+        </div>
+        <div class="text-center space-y-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <img src="../images/birds3.jpg" alt="" class="w-full" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-gray-900 text-gray-100 flex flex-col justify-center items-center px-4 py-16 space-y-12"
+    >
+      <p class="text-center">
+        TailwindCSS Version Of "Simply Me" Theme Made By
+        <a
+          class="text-teal-500"
+          href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp"
+          >w3schools</a
+        >
+      </p>
+    </div>
+  </body>
+</html>
