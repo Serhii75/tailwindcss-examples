@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <nav class="bg-teal-600 text-gray-100 shadow-md">
+      <div
+        class="relative max-w-7xl m-auto flex justify-between items-center px-4 h-16"
+      >
+        <a href="#" class="text-3xl">Logo</a>
+        <button id="nav-toggler" class="sm:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+        <ul
+          id="main-menu"
+          class="absolute sm:static left-0 top-16 w-full sm:w-auto hidden sm:flex sm:space-x-4 style-none text-xl bg-teal-500 sm:bg-teal-600 divide-y divide-solid divide-teal-400 sm:divide-y-0"
+        >
+          <li>
+            <a
+              class="block hover:bg-teal-400 hover:sm:bg-teal-500 sm:inline px-4 py-2 sm:px-2 rounded transition-all duration-300"
+              href="#"
+              >Item 1</a
+            >
+          </li>
+          <li>
+            <a
+              class="block hover:bg-teal-400 hover:sm:bg-teal-500 sm:inline px-4 py-2 sm:px-2 rounded transition-all duration-300"
+              href="#"
+              >Item 2</a
+            >
+          </li>
+          <li>
+            <a
+              class="block hover:bg-teal-400 hover:sm:bg-teal-500 sm:inline px-4 py-2 sm:px-2 rounded transition-all duration-300"
+              href="#"
+              >Item 3</a
+            >
+          </li>
+          <li>
+            <a
+              class="block hover:bg-teal-400 hover:sm:bg-teal-500 sm:inline px-4 py-2 sm:px-2 rounded transition-all duration-300"
+              href="#"
+              >Item 4</a
+            >
+          </li>
+          <li>
+            <a
+              class="block hover:bg-teal-400 hover:sm:bg-teal-500 sm:inline px-4 py-2 sm:px-2 rounded transition-all duration-300"
+              href="#"
+              >Item 5</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
